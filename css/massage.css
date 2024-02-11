@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+nav {
+    background-color: #333;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav ul li {
+    display: inline;
+}
+  
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+  
+nav ul li a:hover {
+    background-color: #555;
+}
+  
+.section {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+    
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  
+.massage-technique {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+  
+.massage-technique img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+  
+.massage-technique h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+.massage-technique p {
+    font-size: 16px;
+}
+  
